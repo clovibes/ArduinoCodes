@@ -41,7 +41,7 @@ if (LDRValue <=600)
       digitalWrite(relay, HIGH);
       delay(5000);
       Serial.println("Hi");
-      return 0;
+      //return 0;
  }
 
   else if(motionStatePrevious == HIGH && motionStateCurrent == LOW){
